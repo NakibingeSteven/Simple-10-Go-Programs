@@ -1,5 +1,4 @@
-// database.go
-package main.go
+package main
 
 import (
 	"database/sql"
