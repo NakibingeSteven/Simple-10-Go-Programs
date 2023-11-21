@@ -1,0 +1,16 @@
+Initialize a Go module:
+Run the following command to initialize a Go module in your project. Replace <module-name> with a name for your module (it can be the same as your project name).
+  go mod init <module-name>
+   go mod init HelloWorld
+
+Create a Go file:
+Open your text editor and create a new Go file named main.go with the following content:
+package main
+import "fmt"
+func main() {
+    fmt.Println("Hello, World!")
+}
+
+Run the program:
+Run the following command to execute your Go program:
+go run main.go
